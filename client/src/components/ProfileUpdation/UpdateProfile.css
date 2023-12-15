@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(21, 21, 37);
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+    
+    .sign_up {
+      height: 100vh;
+      /* background: url("https://images.pexels.com/photos/7620384/pexels-photo-7620384.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"); */
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .container {
+      background-color: rgb(21, 21, 37);
+      width: 380px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    h1 {
+      color: rgb(255, 255, 255);
+      font-size: 10px;
+      padding-bottom: 50px;
+    }
+    
+    /* h1::before {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: black;
+      left: 450px;
+      top: 29%;
+      position: absolute;
+    }
+    
+    h1::after {
+      content: "";
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: black;
+      right: 450px;
+      top: 29%;
+      position: absolute;
+    }
+     */
+    #create {
+        font-size:12px
+    }
+    
+    input {
+        padding :6px ;
+        margin-top :10px ;
+        margin-left :10px ;
+    }
+    
+    .details input {
+        width :335px
+    }
+    
+    .details {
+        display :flex ;
+        flex-direction :column
+    }
+    
+    .check {
+        display :inline-block
+    }
+    
+    #register_btn {
+        text-decoration:none ;
+        padding :10px   ;
+        border :1px solid rgb(6, 19, 6) ;
+        background:rgb(110, 111, 110) ;
+        color:white ;
+        border-radius :8px ;
+        margin-top :20px
+    }
+    
+    #register_btn:hover {
+      background-color: rgb(35, 35, 72);
+      color:white ;
+        border :1px solid black ;
+        transition:.5s
+    }
+    
+    .term a {
+        color:green
+    }
+    
+    #privacy {
+        color:green
+    }
+    
+    .signIn {
+        display:block ;
+        color:rgb(247, 247, 247) ;
+        position:absolute ;
+        top :81%;
+        left :38%
+    }
+    
+    .checkbox {
+        width :355px ;
+        margin-top :10px
+    }
+    
+    .signIn p span a {
+        color:black ;
+        margin-left :6px
+    }
+    
+  
+    /* CSS Styles */
+  .radio-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      margin-left: 28px;
+      
+    }
+    
+    .radio-button {
+     
+      padding: 20px;
+      display: none; /* Hide the default radio button */
+    }
+    
+    .radio-label {
+      cursor: pointer;
+      padding: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .radio-label-selected {
+      background-color: rgb(35, 35, 72);
+      color: white;
+      border: 2px solid rgb(163, 163, 167); /* Add this line to add a colored border */
+    border-radius: 5px; /* Optional: Add border-radius for a rounded border */
+  
+    }
+    
+    .radio-label-unselected {
+      background:rgb(110, 111, 110) ;
+  
+    }
+    .radio-label-separator{
+          margin-left: 5px;
+          margin-right: 5px;
+      }

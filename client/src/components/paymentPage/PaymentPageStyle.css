@@ -1,0 +1,108 @@
+.payment-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-name,
+.product-price {
+  width: 45%;
+}
+
+.product-name label,
+.product-email label,
+.product-price label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+
+.product-name input,
+.product-email input,
+.product-price input {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.payment-page-button {
+  background-color: #c084fc;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: purple;
+}
+
+.order-list {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.total-price {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.total-price strong {
+  font-weight: bold;
+}
+
+.stripe-button-el {
+  margin-top: 30px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .product-info {
+    flex-direction: column;
+  }
+
+  .product-name,
+  .product-email,
+  .product-price {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
