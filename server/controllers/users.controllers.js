@@ -42,7 +42,7 @@ const registerController = async (req, res) => {
       from: "fyp2batch19@gmail.com",
       to: email,
       subject: "Email Verification",
-      text: `Click on the following link to verify your email: http://localhost:5173/verify/${verificationToken}`,
+      text: `Click on the following link to verify your email: https://edit-on.vercel.app/verify/${verificationToken}`,
     };
 
     // Send a verification email to the user
