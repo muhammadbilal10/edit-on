@@ -85,6 +85,11 @@ export default function MovieCardPage({ cardDetails }) {
           {firstVideo.title} {/* Use the title of the first video */}
         </Typography>
         <CardActionArea
+        sx={{
+          "&:hover": {
+            backgroundColor: "#d8b4fe",
+          },
+        }}
           onClick={() => {
             const creator = creatorList.filter(
               (creator) => creator._id === cardDetails.id
